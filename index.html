@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bits & Glory</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Loading Page Animation -->
+  <div class="loading-page">
+    <div class="loading-animation">
+      <span>Loading</span>
+      <span>.</span>
+      <span>.</span>
+      <span>.</span>
+    </div>
+  </div>
+
+  <!-- Slider Header -->
+  <div class="slider"></div>
+
+  <!-- Main Nav Bar -->
+  <div class="nav">
+    <div class="nav-left">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="games-dropdown">Games <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="#">Crash</a>
+            <a href="#">Mines</a>
+            <a href="#">Dice</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <h1>Bits & Glory</h1>
+    <div class="nav-middle">
+      <ul>
+        <li><a href="#">Deposit</a></li>
+        <li><a href="#">Withdraw</a></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <ul>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Alerts</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main Game Images -->
+  <div class="container">
+    <div class="game-one">
+      <a href="pages/mines/mines.html">
+        <img src="assets/mines-img.png" class="mines-img" alt="Mines Game">
+      </a>
+    </div>
+    <div class="game-two">
+      <a href="pages/crash/crash.html">
+        <img src="assets/crash-img.jpg" class="crash-img" alt="Crash Game">
+      </a>
+    </div>
+    <div class="game-three">
+      <a href="pages/dice/dice.html">
+        <img src="assets/dice-img.png" class="dice-img" alt="Dice Game">
+      </a>
+    </div>
+  </div>
+
+  <script src="script/script.js"></script>
+</body>
+
+</html>
