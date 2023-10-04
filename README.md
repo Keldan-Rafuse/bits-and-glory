@@ -1,4 +1,4 @@
-# Bits & Glory | Online Casino [Languages Used HTML, CSS, JavaScript, and More Soon]
+# Bits & Glory | Online Casino
 
 The casino-themed website I've created is a testament to my dedication and ambition to master web development. I've 
 spent an impressive 3 hours and 33 minutes working diligently on this project so far, and the results are certainly noteworthy.
